@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fn-bold {
+    font-weight: bolder;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #303e50;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-section {
+    width: 50%;
+    padding: 15% 5%;
+    background-color: #313E51;
+}
+
+.text-section__unit {
+    display: block;
+    color: white;
+}
+
+.text-section__wel-msg-1 {
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+.text-section__wel-msg-2 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.text-section__mini-msg {
+    padding: 5% 0;
+    color: rgb(132, 132, 176);
+    font-size: 1.2vw;
+    font-style: italic;
+}
+
+.categories {
+    width: 50%;
+    padding: 15% 5%;
+    background-color: #313E51;
+    /* display: flex; */
+    gap: 30px;
+}
+
+.category {
+    width: 70%;
+    height: 5rem;
+    margin: 20px 0;
+    background-color: #3C4C67;
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.category__logo {
+}
+
+.category__logo img {
+    width: 3.5rem;
+}
+
+.category__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 160%;
+    font-weight: 600;
+    color: white;
+}
